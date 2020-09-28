@@ -1,0 +1,849 @@
+
+
+
+<!DOCTYPE html>
+<html class="no-js" lang='en'>
+<head>
+    
+    
+ 
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon-precomposed" href="/icons/apple-touch-icon-precomposed.png">
+    <link rel="icon" href="/icons/favicon.png">
+    <meta name="application-name" content="European Council" id="applicationName">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/icons/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="stamp" content="28/09/2020 5:29:33 AM">
+
+    <script>
+
+        // ------------------------- / At-Internet object start / ------------------------- //
+        (function () {
+            var at = document.createElement('script');
+            at.type = 'text/javascript';
+            at.async = true;
+            at.src = '/js/smarttag-production.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] || document.getElementsByTagName('script')[0].parentNode).insertBefore(at, null);
+        })();
+
+        // Initialize AT Internet library tag asynchronously
+        window.ATInternet = {
+            onTrackerLoad: function () {
+                window.ATInternet.Utils.consentReceived(false);
+                window.tag = new window.ATInternet.Tracker.Tag({ ignoreEmptyChapterValue: true, sendHitWhenOptOut: false});
+                window.tag.page.set({
+                name: 'page-not-found',
+                level2: '11',
+                chapter1: '404',
+                chapter2: '',
+                chapter3: ''
+                });
+
+                window.tag.customVars.set({
+                site: {
+                    1: 'en',
+                    2: '05/10/2017',
+                    3: '10',
+                    4: '2017',
+                    5: 'Shared content',
+                    6: 'error',
+                    7: '0',
+                    9: 'Page not found',
+                    10: encodeURIComponent(document.URL),
+                    11: encodeURIComponent(document.referrer)
+                    },
+                    /*REGISTER-TRACKING-PLACEHOLDER*/
+                });
+
+                window.tag.internalSearch.set({
+                keyword: '',
+                resultPageNumber: '0'
+                });
+
+                if (document.cookie.indexOf('atuserid=') == -1 && document.cookie.indexOf('atoptedout=') == -1) {
+                    window.tag.clientSideUserId.set("Consent-NO");
+                }
+
+                window.tag.dispatch();
+            }
+        };
+
+        // ------------------------- / At-Internet object end / ------------------------- //
+    </script>
+
+
+
+    <title>Page not found - Consilium</title>
+
+
+
+
+<meta name="keywords" content="" />
+<meta name="TARGET_URL" content="http://www.consilium.europa.eu/en/404/" />
+<meta name="UMBRACO_UID" content="9468b69a-c678-43db-936f-b02e31f04979" />
+<meta name="LANGUAGE" content="en" />
+<meta name="UMBRACO_TITLE" content="Page not found" />
+<meta name="SORT_DATE" content="20200514" />
+<meta name="PUBLICATION_TYPE" content="" />
+<meta name="FILE_TYPE" content="PAGE" />
+<meta name="ENTITY" content="" />
+<meta name="TOPICS" content="" />
+<meta name="SECTION_TYPE" content="" />
+<meta name="PRESS_MATERIAL_TYPE" content="" />
+<meta name="FUNCTION" content="" />
+<meta name="SUGGESTED_DESCRIPTION" content="" />
+<meta name="INDEX_CONTENT" content="1" />
+<meta name="DOCUMENT_TYPE" content="notFoundPage" />
+        <!-- SOCIAL SHARING -->
+        <meta property="og:title" content="Page not found" />
+        <meta property="og:description" content="" />
+        <meta property="og:url" content="http://www.consilium.europa.eu/en/404/" />
+        <meta property="og:type" content="article" />
+                <meta property="og:image" content="https://www.consilium.europa.eu/media/43918/eucouncil-logo-socmed.jpg" />
+            <meta name="twitter:image" content="https://www.consilium.europa.eu/media/43918/eucouncil-logo-socmed.jpg">
+            <meta name="twitter:card" content="summary" />
+        <!-- END SOCIAL SHARING -->
+
+    <link href="/DependencyHandler.axd?s=L2Nzcy9jbGFzc2ljLmNzczsvY3NzL2NsYXNzaWMuZGF0ZS5jc3M7L2Nzcy9jbGFzc2ljLnRpbWUuY3NzOy9jc3MveWFtbS5jc3M7L2Nzcy9lYXN5LWF1dG9jb21wbGV0ZS5jc3M7L2Nzcy9zbGljay5jc3M7L2Nzcy9zZWxlY3QyLmNzczsvc2NyaXB0cy9hbWNoYXJ0czMvYW1jaGFydHMvcGx1Z2lucy9leHBvcnQvZXhwb3J0LmNzczsvY3NzL2NvbnNpbGl1bS5jc3M7&amp;t=Css&amp;cdv=159000078" type="text/css" rel="stylesheet"/>
+
+    <!-- %% END_HEAD_MARKER %% -->  
+</head>
+<body class="loading" data-render-decibel="True">
+
+    <!-- Skip to content button -->
+    <nav class="text-center" aria-labelledby="go-to-content">
+        <a class="skip-to-content-btn btn btn-primary" id="go-to-content" href="#main-content" accesskey="2">Go to content</a>
+    </nav>
+    <!-- Skip to content button -->
+
+    
+
+
+<!-- Cookie Message start -->
+    <div class="cookie-section hidden" role="contentinfo" aria-label="How we use cookies">
+        <div class="container-council text-center">
+            <p>We use cookies in order to ensure that you can get the best browsing experience possible on the Council website. Certain cookies are used to obtain aggregated statistics about website visits to help us constantly improve the site and better serve your needs. Other cookies are used to boost performance and guarantee security of the website.</p>
+            <div class="hidden-xs hidden-sm expandable-section">
+                <p>With your permission, we will use AT internet cookies to produce aggregated, anonymous data about our visitors' browsing and behaviour on our website. We will use this data to improve your experience on our website.</p>
+                <p>To get more information about these cookies, how and why we use them and how you can change your settings, check our <a href="/en/about-site/cookies/">cookies policy page</a>.</p>
+            </div>
+            <button type="button" class="hidden-md hidden-lg toggle-multiple-class-agnostic read-more-cookie-btn" data-parent="cookie-section" data-target="expandable-section" data-class-toggle="hidden-xs hidden-sm"><span class="icon-plus"></span>Read more</button>
+
+            <div>
+                <button type="button" aria-describedby="accept_cookies" data-value="Yes" class="btn btn-cookies btn-accept-cookies">
+                    <span class="icon-ok-sign"></span>
+                    <span id="accept_cookies">I accept cookies</span>
+                </button>
+            </div>
+
+            <div class="margin-top-20">
+                <button type="button" aria-describedby="reject_cookies" data-value="No" class="btn-cookies btn-refuse-cookies">
+                    <span id="reject_cookies">I refuse cookies</span>
+                </button>
+            </div>
+        </div>
+    </div>
+<!-- Cookie Message End -->
+<div class="folow-us-section change-pos" role="contentinfo" aria-label="Social media links" data-breakpoint="768" data-hook="follow-us-hook">
+    <div class="container-council">
+        <span class="d-inline-block align-sub hidden-xs"><a href="/en/contact/social-media/">Follow us</a></span>
+        <ul class="d-inline-block group-icon-list vertical-divider list-inline">
+            <li>
+                <a class="facebook icon-18" href="https://www.facebook.com/eucouncil" title="Facebook">
+                    <span class="icon-facebook" aria-hidden="true"></span>
+                </a>
+            </li>
+            <li>
+                <a class="twitter icon-18" href="https://twitter.com/eucouncil" title="Twitter">
+                    <span class="icon-twitter" aria-hidden="true"></span>
+                </a>
+            </li>
+            <li>
+                <a class="instagram icon-18" href="https://instagram.com/eucouncil/" title="Instagram">
+                    <span class="icon-instagram" aria-hidden="true"></span>
+                </a>
+            </li>
+            <li>
+                <a class="linkedin icon-18" href="https://www.linkedin.com/company/eucouncil" title="Linkedin">
+                    <span class="icon-linkedin2" aria-hidden="true"></span>
+                </a>
+            </li>
+            <li>
+                <a class="youtube icon-18" href="http://www.youtube.com/user/eucouncil" title="YouTube">
+                    <span class="icon-youtube" aria-hidden="true"></span>
+                </a>
+            </li>
+        </ul>
+        <a class="btn btn-light" href="https://subscriptions-dsms.consilium.europa.eu/en/Subscribe" title="Email subscription">
+            <span class="icon-22 icon-left icon-envelope-open"></span>Email subscription
+        </a>
+    </div>
+</div>
+
+
+<header>
+    <div class="container-council">
+        <div class="row">
+            <div class="col-md-7 col-sm-8">
+                <div class="logo">
+                    <a class="d-block" href="/en/">
+                        <img src="/images/logo.png" alt="European Council - Council of the European Union">
+                    </a>
+                </div>
+                <div class="logo-wordmark"  >
+                    <div class="wordmark-ec">European Council</div>
+                    <div class="wordmark-ceu">Council of the European Union</div>
+                </div>
+            </div>
+
+            <div class="col-md-5 col-sm-4">
+
+                <form method="get" action="/en/search/" role="search">
+                    <input type="hidden" name="filetypes" value="PAGE" />
+                    <div class="form-group search-box">
+                        <div class="input-group">
+                            <label for="search-input" class="sr-only">Search</label>
+                            <input type="text" name="Keyword" data-language="en" data-apiurl="/api/ElasticSearch/SuggestedKeywords" class="form-control" id="search-input" placeholder="Search">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <span class="icon-search icon-2x icon-white"><i class="sr-only">Search</i></span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<nav class="navbar navbar-default yamm" aria-label="Main navigation">
+    <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#mega-menu" title="Main menu">
+            <span class="toggle-label">Menu</span>
+            <span class="icon-bar" aria-hidden="true"></span>
+            <span class="icon-bar" aria-hidden="true"></span>
+            <span class="icon-bar" aria-hidden="true"></span>
+        </button>
+    </div>
+    <div class="container-council">
+        <div class="navbar-collapse collapse" id="mega-menu" aria-label="Main menu">
+            <ul class="nav navbar-nav" role="menubar">
+
+                        <li class="dropdown yamm-fw " aria-expanded="false">
+                            <a href="/en/european-council/president/" role="menuitem" data-toggle="dropdown" class="dropdown-toggle">The European Council</a>
+                            <ul class="dropdown-menu" role="menu" aria-hidden="true">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="megadropdown-text-box">
+                                                    <p><strong>The European Council</strong></p>
+<p>The European Council is the EU institution that defines the general political direction and priorities of the European Union. It consists of the <strong>heads of state or government of the member states</strong>, together with its President and the President of the Commission. </p>
+
+
+    <ul class="council-link-list table-cell-display vertical-top">
+        <li>
+                <a href="/en/european-council/"  class="" title="Read more about the role of the European Council">Read more about the role of the European Council</a>
+
+        </li>
+    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                                <ul class="megadropdown-links">
+                <li class="">
+                    <a href="/en/european-council/role-setting-eu-political-agenda/" role="menuitem"><strong>Setting the EU&#39;s political agenda</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/european-council/role-nominations-appointment/" role="menuitem"><strong>Role in nominations and appointments</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/european-council/conclusions/" role="menuitem"><strong>European Council conclusions</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/european-council/history/" role="menuitem"><strong>History of the European Council</strong></a>
+                </li>
+        </ul>
+
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                                <ul class="megadropdown-links">
+                <li class="">
+                    <a href="/en/european-council/president/" role="menuitem"><strong>Charles Michel, President of the European Council</strong></a>
+                        <ul class="dropdown-list-box">
+                                <li><a href="/en/european-council/president/role/" role="menuitem">Role</a></li>
+                                <li><a href="/en/european-council/president/biography/" role="menuitem">Biography of Charles Michel</a></li>
+                                <li><a href="/en/european-council/president/cabinet/" role="menuitem">Cabinet</a></li>
+                        </ul>
+                </li>
+                <li class="">
+                    <a href="/en/european-council/former-euco-presidents/" role="menuitem"><strong>Former Presidents of the European Council</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/european-council/euro-summit/" role="menuitem"><strong>Euro Summit</strong></a>
+                        <ul class="dropdown-list-box">
+                                <li><a href="/en/european-council/euro-summit/history/" role="menuitem">History of the Euro Summit</a></li>
+                        </ul>
+                </li>
+        </ul>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown yamm-fw " aria-expanded="false">
+                            <a href="/en/council-eu/" role="menuitem" data-toggle="dropdown" class="dropdown-toggle">The Council of the EU</a>
+                            <ul class="dropdown-menu" role="menu" aria-hidden="true">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="megadropdown-text-box">
+                                                    <p><strong>The Council of the European Union</strong></p>
+<p>The Council of the EU is the institution representing the member states' governments. Also known informally as the EU Council, it is where <strong>national ministers from each EU country</strong> meet to adopt laws and coordinate policies.</p>
+<p><a href="/en/council-eu/" title="Read more about the work of the Council">Read more about the work of the Council</a> </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                                <ul class="megadropdown-links">
+                <li class="">
+                    <a href="/en/council-eu/decision-making/" role="menuitem"><strong>Decision-making process</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/council-eu/voting-system/" role="menuitem"><strong>Voting system</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/council-eu/international-agreements/" role="menuitem"><strong>Role in international agreements</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/council-eu/conclusions-resolutions/" role="menuitem"><strong>Conclusions and resolutions</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/council-eu/configurations/" role="menuitem"><strong>Council configurations</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/council-eu/preparatory-bodies/" role="menuitem"><strong>Preparatory bodies</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/council-eu/presidency-council-eu/" role="menuitem"><strong>Presidency of the Council</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/council-eu/history/" role="menuitem"><strong>History of the Council of the EU</strong></a>
+                </li>
+        </ul>
+
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                                <ul class="megadropdown-links">
+                <li class="">
+                    <a href="/en/council-eu/eurogroup/" role="menuitem"><strong>Eurogroup</strong></a>
+                        <ul class="dropdown-list-box">
+                                <li><a href="/en/council-eu/eurogroup/president/" role="menuitem">President of the Eurogroup</a></li>
+                                <li><a href="/en/council-eu/eurogroup/how-the-eurogroup-works/" role="menuitem">How the Eurogroup works</a></li>
+                                <li><a href="/en/council-eu/eurogroup/work-programme/" role="menuitem">Work programme</a></li>
+                                <li><a href="/en/council-eu/eurogroup/eurogroup-working-group/" role="menuitem">Eurogroup Working Group </a></li>
+                        </ul>
+                </li>
+        </ul>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown yamm-fw " aria-expanded="false">
+                            <a href="/en/policies/" role="menuitem" data-toggle="dropdown" class="dropdown-toggle">Policies</a>
+                            <ul class="dropdown-menu" role="menu" aria-hidden="true">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="megadropdown-text-box">
+                                                    <p><strong>Policies</strong></p>
+<p>The Council of the EU and the European Council work on a wide range of issues affecting the interests of the EU and its citizens.</p>
+<p>Follow the latest developments on <strong>policy-making</strong> and on <strong>legislation</strong> under negotiation.</p>
+
+
+    <ul class="council-link-list table-cell-display vertical-top">
+        <li>
+                <a href="/en/policies/"  class="" title="See all policies">See all policies</a>
+
+        </li>
+    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                                <ul class="megadropdown-links">
+                <li class="">
+                    <a href="/en/policies/coronavirus/" role="menuitem"><strong>COVID-19 coronavirus pandemic</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/policies/eu-uk-negotiations-on-the-future-relationship/" role="menuitem"><strong>EU-UK negotiations on the future relationship</strong></a>
+                </li>
+        </ul>
+
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                                <ul class="megadropdown-links">
+                <li class="">
+                    <a href="/en/policies/eu-recovery-plan/" role="menuitem"><strong>A recovery plan for Europe</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/policies/long-term-eu-budget-2021-2027/" role="menuitem"><strong>Long-term EU budget 2021-2027</strong></a>
+                </li>
+                <li class="additional-nav-link">
+                    <a href="/en/policies/" role="menuitem"><strong>See all policies</strong></a>
+                </li>
+        </ul>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown yamm-fw " aria-expanded="false">
+                            <a href="/en/meetings/calendar/" role="menuitem" data-toggle="dropdown" class="dropdown-toggle">Meeting calendar</a>
+                            <ul class="dropdown-menu" role="menu" aria-hidden="true">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="megadropdown-text-box">
+                                                    <p><strong>Meetings</strong></p>
+<p>The <strong>European Council</strong> brings together EU leaders at least four times a year.</p>
+<p>The <strong>Council of the EU</strong> meets in different configurations depending on the topic discussed.</p>
+<p><strong>Committees and working parties</strong> handle the preparatory work on files before they are discussed at Council meetings.</p>
+<p><a href="/en/meetings/calendar/" title="See all meetings">See all meetings</a></p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                                <ul class="megadropdown-links">
+                <li class="">
+                    <a href="/en/meetings/summits-and-ministerial-meetings/" role="menuitem"><strong>Summits and ministerial meetings</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/meetings/preparatory-bodies/" role="menuitem"><strong>Preparatory bodies</strong></a>
+                </li>
+        </ul>
+
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown yamm-fw " aria-expanded="false">
+                            <a href="/en/documents-publications/" role="menuitem" data-toggle="dropdown" class="dropdown-toggle">Documents &amp; Publications</a>
+                            <ul class="dropdown-menu" role="menu" aria-hidden="true">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="megadropdown-text-box">
+                                                    <p><strong>Documents &amp; Publications</strong></p>
+<p>Council and European Council documents are made available through the<strong> public register</strong>, in accordance with <strong>EU rules on transparency</strong>.</p>
+<p>You can also take a look at Council publications, access the archives and search for legislation that the Council negotiates together with the European Parliament.</p>
+<p><a href="/en/documents-publications/" title="Find out more about documents and publications">Find out more about documents and publications</a></p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                                <ul class="megadropdown-links">
+                <li class="">
+                    <a href="/en/documents-publications/public-register/" role="menuitem"><strong>Document register</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/documents-publications/archives/" role="menuitem"><strong>Archives</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/documents-publications/publications/" role="menuitem"><strong>Publications</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/documents-publications/prado/" role="menuitem"><strong>PRADO (register of authentic identity and travel documents)</strong></a>
+                </li>
+        </ul>
+
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                                <ul class="megadropdown-links">
+                <li class="">
+                    <a href="/en/documents-publications/ordinary-legislative-procedure/" role="menuitem"><strong>Search for legislative acts under &#39;codecision&#39;</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/documents-publications/intergovernmental-conferences/" role="menuitem"><strong>Intergovernmental conferences</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/documents-publications/library/" role="menuitem"><strong>Library</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/documents-publications/treaties-agreements/" role="menuitem"><strong>Search the Treaties and Agreements database</strong></a>
+                </li>
+        </ul>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown yamm-fw " aria-expanded="false">
+                            <a href="/en/press/" role="menuitem" data-toggle="dropdown" class="dropdown-toggle">Press</a>
+                            <ul class="dropdown-menu" role="menu" aria-hidden="true">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="megadropdown-text-box">
+                                                    <p><strong>Press office</strong></p>
+<p>The press office is <strong>the first point of contact</strong> for all media requests. Press officers speak 'off the record' about the Council's activities.</p>
+<p>The press office holds <strong>press events</strong>, offers <strong>audiovisual coverage</strong> of major events and provides <strong>facilities for journalists</strong>.     </p>
+<p><a href="/en/press/" title="Find out more about press services">Find out more about press services</a></p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                                <ul class="megadropdown-links">
+                <li class="">
+                    <a href="/en/press/press-releases/" role="menuitem"><strong>Press releases</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/press/calendar/" role="menuitem"><strong>Press calendar</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/press/press-centre/" role="menuitem"><strong>Press centre</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/press/contacts/" role="menuitem"><strong>Press contacts</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/press/accreditation/" role="menuitem"><strong>Media accreditation</strong></a>
+                </li>
+        </ul>
+
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                                <ul class="megadropdown-links">
+                <li class="">
+                    <a href="/en/press/council-live/" role="menuitem"><strong>Council live</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/press/videos-photos/" role="menuitem"><strong>Videos and photos</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/press/infographics/" role="menuitem"><strong>Infographics</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/press/subscriptions/" role="menuitem"><strong>Email and sms subscriptions</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/press/tv-radio-studios/" role="menuitem"><strong>TV and radio studios</strong></a>
+                </li>
+        </ul>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown yamm-fw " aria-expanded="false">
+                            <a href="/en/contact/" role="menuitem" data-toggle="dropdown" class="dropdown-toggle">Contact</a>
+                            <ul class="dropdown-menu" role="menu" aria-hidden="true">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="megadropdown-text-box">
+                                                    <p><strong>Contact</strong></p>
+<p>The headquarters of the Council of the EU and the European Council are located in <strong>Brussels</strong> (Belgium).</p>
+<p>You can get in contact to arrange a <strong>visit</strong>, ask <strong>questions</strong> about the work of both institutions, and request a <strong>document,</strong> among other services.</p>
+<p><a href="/en/contact/" title="See all contact information">See all contact information</a></p>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                                <ul class="megadropdown-links">
+                <li class="">
+                    <a href="/en/contact/address/" role="menuitem"><strong>How to get to the Council</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/contact/general-enquiries/" role="menuitem"><strong>Ask a question</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/contact/visits/" role="menuitem"><strong>Visit the Council</strong></a>
+                </li>
+                <li class="">
+                    <a href="/en/contact/social-media/" role="menuitem"><strong>Social media</strong></a>
+                </li>
+        </ul>
+
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+        <div class="container-council hidden-print">
+            <nav aria-label="Navigation path">
+                <ul class="breadcrumb">
+                        <li>
+                            <a href="/en/">Home</a>
+                        </li>
+                </ul>
+            </nav>
+        </div>
+
+    <main id="main-content">
+        
+
+
+
+
+<div class="container-council">
+    <div class="no-offsets">
+        
+
+<div>
+    <h1>
+        Page not found
+    </h1>
+</div>
+    </div>
+    <div class="content">
+        <div class="content-center">
+            <div class="content-area">
+                <div class="align-none ">
+                    <div class="free-text none ">
+                        <p>We're sorry, we couldn't find the page you're looking for.</p><p>The reason might be that it doesn't exist anymore, it has moved elsewhere or the address is not correct.</p><p>Try the following:</p><ul><li>use our search engine</li><li>browse the sections in the above menu</li><li>or go back to the home page</li></ul>
+                    </div>
+                </div>
+                <div class="align-none ">
+                    <ul class=" link-list">
+                        <li>
+                           <a class="content" href="/en/">Go back to home page</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="align-none ">
+                    <div class="free-text none ">
+                        <p>If you still can't find what you were looking for, send us a message.</p>
+                    </div>
+                    <ul class=" link-list">
+                        <li>
+                            <a class="content" href="/en/contact/general-enquiries/send-message/">Send a message</a>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </main>
+
+<aside class="popup-survey__container modal" role="dialog" aria-label="Feedback survey" id="survey-modal" data-backdrop="false" data-startDate="2019-11-24" data-endDate="2019-12-20" data-delay="20">
+    <div class="popup-survey__modal-box">
+        <div class="logo-consilium">
+            <img src="/images/logo.png" alt="">
+            <div class="text">
+                European Council<br>
+                Council of the European Union
+            </div>
+
+        </div>
+        <!-- QUIT BUTTON-->
+        <a href="#" class="quit-button" data-dismiss="modal">Close</a>
+        <div>
+            
+        </div>
+
+        <!-- LINK TO THE SURVEY-->
+        <a href="#" class="button--no-thanks" data-dismiss="modal">No thanks</a>
+        <a href="https://survey.survicate.com/9cf9cb4663b4f9ff/" class="button--yes" target="_blank" data-dismiss="modal">Take survey <span>(opens in a new window)</span></a>
+    </div>
+</aside>
+
+    
+<footer>
+    <section class="footer-content clearfix">
+        <div class="container-council">
+            
+<div class="row">
+    <div class="col-xs-12 col-sm-4 col-md-6 hidden-xs">
+            <div class="message-box">
+                
+
+
+    
+
+
+
+
+<p>The <strong>General Secretariat of the Council</strong> is a body of staff responsible for assisting the European Council and the Council of the EU. It helps organise and ensure the coherence of the Council's work and the implementation of its 18-month programme.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+    </div>
+    <div class="footer-quick-links col-xs-12 col-sm-8 col-md-6">
+                <dl class="col-xs-12 col-sm-4 col-md-4">
+                    <dt><a href="/en/general-secretariat/">General Secretariat of the Council</a></dt>
+                        <dd><a href="/en/general-secretariat/public-procurement/">Public procurement</a></dd>
+                        <dd><a href="/en/general-secretariat/jobs/">Jobs</a></dd>
+                        <dd><a href="/en/general-secretariat/jobs/traineeships/">Traineeships</a></dd>
+                </dl>
+                <dl class="col-xs-12 col-sm-4 col-md-4">
+                    <dt><a href="/en/general-secretariat/corporate-policies/">Corporate policies</a></dt>
+                        <dd><a href="/en/general-secretariat/corporate-policies/data-protection/">Data protection</a></dd>
+                        <dd><a href="/en/general-secretariat/corporate-policies/transparency/">Transparency</a></dd>
+                        <dd><a href="/en/general-secretariat/corporate-policies/visual-identity/">Visual identity</a></dd>
+                </dl>
+                <dl class="col-xs-12 col-sm-4 col-md-4">
+                    <dt><a href="/en/contact/">Contact us</a></dt>
+                        <dd><a href="/en/contact/address/">How to reach us</a></dd>
+                        <dd><a href="/en/contact/address/council-buildings/">Council buildings</a></dd>
+                        <dd><a href="/en/contact/general-enquiries/">General enquiries</a></dd>
+                        <dd><a href="/en/contact/visits/">Visit the Council</a></dd>
+                </dl>
+    </div>
+</div>
+
+        </div>
+        <div id="follow-us-hook"></div>
+        <div id="language-hook"></div>
+    </section>
+    <section class="external-institutions">
+        <div class="container-council">
+            <ul class="list-inline">
+                <li class="eu-link">
+                    <img src="/images/img_flag-eu.gif" alt="European Union flag">
+                    <a href="http://europa.eu/index_en.htm">European Union</a>
+                </li>
+                <li>
+                    <a href="http://www.europarl.europa.eu/portal/en">European Parliament</a>
+                </li>
+                <li>
+                    <a href="http://ec.europa.eu/index_en.htm">European Commission</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+        <section class="footer-links">
+        <div class="container-council">
+            <ul class="list-inline">
+                        <li>
+                            <a href="/en/sitemap/">Sitemap</a>
+                        </li>
+                        <li>
+                            <a href="/en/about-site/">About this site</a>
+                        </li>
+                        <li>
+                            <a href="/en/about-site/privacy-statement-and-legal-notice/">Privacy and legal notice</a>
+                        </li>
+                        <li>
+                            <a href="/en/about-site/language-policy/">Language policy</a>
+                        </li>
+                        <li>
+                            <a href="/en/about-site/accessibility-policy/">Accessibility policy</a>
+                        </li>
+                        <li>
+                            <a href="/en/about-site/copyright/">Copyright</a>
+                        </li>
+                        <li>
+                            <a href="/en/about-site/cookies/">Cookies</a>
+                        </li>
+            </ul>
+        </div>
+    </section>
+
+</footer>
+    
+
+
+
+    <script src="/DependencyHandler.axd?s=L2pzL2pxdWVyeS5qczsvanMvanF1ZXJ5LnZhbGlkYXRlLmpzOy9qcy9qcXVlcnkudmFsaWRhdGUudW5vYnRydXNpdmUuanM7L2pzL21vZGVybml6ci5qczsvanMvYm9vdHN0cmFwLmpzOy9qcy9tb21lbnQtd2l0aC1sb2NhbGVzLmpzOy9zY3JpcHRzL2FtY2hhcnRzMy9hbWNoYXJ0cy9hbWNoYXJ0cy5qczsvc2NyaXB0cy9hbWNoYXJ0czMvYW1jaGFydHMvcGllLmpzOy9zY3JpcHRzL2FtY2hhcnRzMy9hbWNoYXJ0cy9zZXJpYWwuanM7L3NjcmlwdHMvYW1jaGFydHMzL2FtY2hhcnRzL3BsdWdpbnMvZXhwb3J0L2V4cG9ydC5taW4uanM7L2pzL2pzLmNvb2tpZS5qczsvanMvcGlja2VyLmpzOy9qcy9waWNrZXIuZGF0ZS5qczsvanMvcGlja2VyLnRpbWUuanM7L2pzL2pxdWVyeS9wbHVnaW5zL3BpY2tlci50cmFuc2xhdGlvbnMvZW4uanM7L2pzL3N0dXBpZHRhYmxlLmpzOy9qcy9zZWxlY3QyLmpzOy9qcy9qcXVlcnkuZWFzeS1hdXRvY29tcGxldGUuanM7L2pzL2pxdWVyeS9wbHVnaW5zL3Bvc2l0aW9uLWNoYW5nZXIuanM7L2pzL2pxdWVyeS9wbHVnaW5zL2VsZXZhdGV6b29tLmpzOy9qcy9zbGljay5qczsvanMvY29uc2lsaXVtLmpzOw&amp;t=Javascript&amp;cdv=159000078" type="text/javascript"></script>
+    
+    
+
+    
+    
+
+</body>
+</html>

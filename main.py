@@ -5,6 +5,7 @@ import shutil
 import logging
 from tqdm import tqdm
 
+
 NAT = [
     "AUT",
     "BEL",
@@ -39,7 +40,11 @@ NAT = [
     "NOR",
 ]
 
-logging.basicConfig(filename='logs/EUE', level=logging.DEBUG,
+log_file = 'logs/visa.log'
+
+Path(log_file).parent.mkdir(parents=True, exist_ok=True)
+
+logging.basicConfig(filename=log_file, level=logging.DEBUG,
                     format='%(asctime)s:%(levelname)s:%(message)s',
                     datefmt="%m/%d/%Y %I:%M:%S %p %Z")
 
@@ -61,7 +66,6 @@ for nat in tqdm(NAT):
         url = f"https://www.consilium.europa.eu/prado/en/prado-documents/{nat}/{doc}/docs-per-type.html"
         response = requests.get(url)
         text = response.text
-        import pdb; pdb.set_trace()
         images = re.findall(r"images.................", text)
         img_urls = ["https://www.consilium.europa.eu/prado/" + img for img in images]
         for img_url in img_urls:
